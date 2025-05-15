@@ -1,0 +1,11 @@
+[user]
+	email = 153317476+scatternoodle@users.noreply.github.com
+	name = Elliot Shirra (Scatternoodle)
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/

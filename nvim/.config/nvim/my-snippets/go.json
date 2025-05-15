@@ -1,0 +1,8 @@
+{
+  "docfunc": {
+    "prefix": "docfunc",
+    "body": [
+      "hi $1"
+    ]
+  }
+}
