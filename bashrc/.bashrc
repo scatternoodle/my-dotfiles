@@ -170,7 +170,7 @@ alias gitconfig="vim ~/.gitconfig"
 bind -x '"\e[23~":"wmctrl -ir `xdotool getwindowfocus` -b toggle,fullscreen"'
 alias alacritty-config="vim ~/.config/alacritty/alacritty.toml"
 alias alacritty-docs="firefox --new-tab 'https://alacritty.org/config-alacritty.html'"
-alias a-theme="ls ~/.config/alacritty/themes/themes | fzf | xargs -I {} ln -sf ~/.config/alacritty/themes/themes/{} ~/.config/alacritty/current_theme.toml && echo "@@@" >> ~/.config/alacritty/alacritty.toml && sed -i '/@@@/d' ~/.config/alacritty/alacritty.toml"
+alias a-theme="ls ~/.config/alacritty/themes | fzf | xargs -I {} ln -sf ~/.config/alacritty/themes/{} ~/.config/alacritty/current_theme.toml && echo "@@@" >> ~/.config/alacritty/alacritty.toml && sed -i '/@@@/d' ~/.config/alacritty/alacritty.toml"
 
 export MYGH="${HOME}/workspace/github.com/scatternoodle"
 alias mygh='cd ~/workspace/github.com/scatternoodle'
