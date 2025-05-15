@@ -148,9 +148,6 @@ alias ".."="cd .."
 alias -- "-"="cd -"
 alias "h"="cd ~"
 
-# my custom prompt
-source ~/scripts/bash/prompt.sh
-
 # Neovim stuff
 alias vim="nvim"
 export VIMCFGPATH="$HOME/.config/nvim"
