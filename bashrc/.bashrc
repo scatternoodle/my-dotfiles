@@ -209,3 +209,5 @@ export PATH="$PATH:/opt/Linux_Unreal_Engine_5.5.2"
 export ORACLE_HOME=/opt/oracle/instantclient
 export PATH=$PATH:$ORACLE_HOME/
 export LD_LIBRARY_PATH=$ORACLE_HOME/:$LD_LIBRARY_PATH # for linker to find libraries
+
+eval "$(zoxide init --cmd cd bash)"
