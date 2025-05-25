@@ -1,3 +1,3 @@
 return function()
-	vim.cmd([[colorscheme blue]])
+	vim.cmd([[colorscheme kanagawa]])
 end
