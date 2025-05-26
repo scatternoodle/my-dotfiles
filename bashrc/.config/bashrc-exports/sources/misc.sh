@@ -2,3 +2,4 @@
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
 
 alias sysupdate='sudo apt update && DEBIAN_FRONTEND=noninteractive sudo apt upgrade -y && flatpak update --noninteractive'
+alias zen='flatpak run app.zen_browser.zen -P & disown'
