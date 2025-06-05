@@ -178,6 +178,8 @@ return {
 			},
 
 			rust_analyzer = {},
+
+			jqls = {},
 		}
 
 		-- Ensure the servers and tools above are installed
