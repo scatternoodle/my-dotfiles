@@ -6,7 +6,7 @@ return {
 		-- add any opts here
 		-- for example
 		provider = "gemini",
-		auto_suggestions_provider = "gemini",
+		-- auto_suggestions_provider = "gemini",
 		providers = {
 			gemini = {
 				endpoint = "https://generativelanguage.googleapis.com/v1beta/models",
@@ -21,7 +21,7 @@ return {
 		},
 	},
 	behaviours = {
-		auto_suggestions = true,
+		auto_suggestions = false,
 	},
 	-- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
 	build = "make",
