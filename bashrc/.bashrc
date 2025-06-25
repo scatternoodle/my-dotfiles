@@ -185,7 +185,6 @@ alias epiws="cd /home/elliot/workspace/epiuse"
 
 export WFS_ADMIN_CLIENTS_ROOT="$HOME/workspace/epiuse/admin-clients"
 
-alias brewfullup='brew update && brew outdated && brew upgrade && brew cleanup'
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ############ bashrc-exports BEGIN ############
