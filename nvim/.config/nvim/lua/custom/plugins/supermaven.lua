@@ -6,5 +6,7 @@ return {
 				return vim.bo.filetype == "markdown"
 			end,
 		})
+
+		vim.keymap.set("n", "<leader>SM", "<cmd>SupermavenToggle<cr>", { desc = "Toggle Supermaven" })
 	end,
 }
