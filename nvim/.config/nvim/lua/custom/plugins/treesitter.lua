@@ -22,6 +22,9 @@ return { -- Highlight, edit, and navigate code
 			"http",
 			"php",
 			"sql",
+			"gdscript",
+			"godot_resource",
+			"gdshader",
 		},
 		-- Autoinstall languages that are not installed
 		auto_install = true,

@@ -6,7 +6,12 @@ return {
 	dependencies = { "nvim-tree/nvim-web-devicons" },
 
 	config = function()
-		require("lualine").setup({})
+		require("lualine").setup({
+			options = {
+				theme = "auto",
+			},
+		})
+
 		opts = function(_, opts)
 			local trouble = require("trouble")
 			local symbols = trouble.statusline({
