@@ -4,5 +4,6 @@ function sysupdate() {
 		sudo snap refresh && \
 		flatpak update --noninteractive && \
 		brew update && brew upgrade && brew cleanup && \
-		cargo install-update --all
+		cargo install-update --all && \
+		npm update --global
 }
