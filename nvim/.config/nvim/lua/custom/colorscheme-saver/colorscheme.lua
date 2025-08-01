@@ -1,3 +1,3 @@
 return function()
-	vim.cmd([[colorscheme everforest]])
+	vim.cmd([[colorscheme quiet]])
 end
