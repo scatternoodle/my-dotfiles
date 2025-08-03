@@ -27,7 +27,9 @@ return { -- Better autoformat replacer - add language replacers as desired.
 
 		formatters = {
 			clang_format = {
-				prepend_args = { "--style={BasedOnStyle: LLVM, IndentWidth: 8}" },
+				prepend_args = {
+					"--style={BasedOnStyle: LLVM, IndentWidth: 8, BreakBeforeBraces: Custom, BraceWrapping: {AfterFunction: true, AfterCaseLabel: true}}",
+				},
 			},
 		},
 
