@@ -1,3 +1,15 @@
+local clang_format_prepend_args = [[--style="{
+    BasedOnStyle: llvm,
+    IndentWidth: 8,
+    BreakBeforeBraces: Custom,
+    BraceWrapping: {
+        AfterFunction: true,
+        AfterCaseLabel: true
+    },
+    ColumnLimit: 0
+}"
+]]
+
 return { -- Better autoformat replacer - add language replacers as desired.
 	"stevearc/conform.nvim",
 	event = { "BufWritePre" },
@@ -28,7 +40,7 @@ return { -- Better autoformat replacer - add language replacers as desired.
 		formatters = {
 			clang_format = {
 				prepend_args = {
-					"--style={BasedOnStyle: LLVM, IndentWidth: 8, BreakBeforeBraces: Custom, BraceWrapping: {AfterFunction: true, AfterCaseLabel: true}}",
+					clang_format_prepend_args,
 				},
 			},
 		},
