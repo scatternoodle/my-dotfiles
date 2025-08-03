@@ -25,6 +25,12 @@ return { -- Better autoformat replacer - add language replacers as desired.
 			}
 		end,
 
+		formatters = {
+			clang_format = {
+				prepend_args = { "--style={BasedOnStyle: LLVM, IndentWidth: 8}" },
+			},
+		},
+
 		-- see https://github.com/stevearc/conform.nvim?tab=readme-ov-file#customizing-formatters
 		formatters_by_ft = {
 			lua = { "stylua" },

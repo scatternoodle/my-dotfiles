@@ -1,3 +1,3 @@
 return function()
-	vim.cmd([[colorscheme quiet]])
+	vim.cmd([[colorscheme lackluster-night]])
 end
