@@ -8,4 +8,4 @@ BraceWrapping:
   AfterFunction: true
   AfterCaseLabel: true
 ColumnLimit: 0
-AlignConsecutiveDeclarations: AcrossEmptyLines
+AlignConsecutiveDeclarations: Consecutive
