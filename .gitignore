@@ -1,5 +1,5 @@
 alacritty/.config/alacritty/current_theme.toml
-./kitty/.config/kitty/current-theme.conf
-./ncspot/.config/ncspot/userstate.cbor
-./nvim/.config/nvim/lazy-lock.json
-./nvim/.config/nvim/lua/custom/colorscheme-saver/colorscheme.lua
+kitty/.config/kitty/current-theme.conf
+ncspot/.config/ncspot/userstate.cbor
+nvim/.config/nvim/lazy-lock.json
+nvim/.config/nvim/lua/custom/colorscheme-saver/colorscheme.lua
