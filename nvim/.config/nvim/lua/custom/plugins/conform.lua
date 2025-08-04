@@ -1,14 +1,4 @@
-local clang_format_prepend_args = [[--style="{
-    BasedOnStyle: llvm,
-    IndentWidth: 8,
-    BreakBeforeBraces: Custom,
-    BraceWrapping: {
-        AfterFunction: true,
-        AfterCaseLabel: true
-    },
-    ColumnLimit: 0
-}"
-]]
+local clang_format = require("custom.clang-format")
 
 return { -- Better autoformat replacer - add language replacers as desired.
 	"stevearc/conform.nvim",
@@ -40,7 +30,7 @@ return { -- Better autoformat replacer - add language replacers as desired.
 		formatters = {
 			clang_format = {
 				prepend_args = {
-					clang_format_prepend_args,
+					clang_format.get_style_arg(nil, 8),
 				},
 			},
 		},
