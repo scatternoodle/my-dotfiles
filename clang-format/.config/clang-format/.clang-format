@@ -2,7 +2,7 @@
 # Managed by GNU Stow
 
 BasedOnStyle: LLVM
-IndentWidth: 2
+IndentWidth: 8
 BreakBeforeBraces: Custom
 BraceWrapping:
   AfterFunction: true
