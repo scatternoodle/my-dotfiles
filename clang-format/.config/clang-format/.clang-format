@@ -9,3 +9,4 @@ BraceWrapping:
   AfterCaseLabel: true
 ColumnLimit: 0
 AlignConsecutiveDeclarations: Consecutive
+AlignAfterOpenBracket: Align
