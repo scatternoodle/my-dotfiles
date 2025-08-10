@@ -41,6 +41,7 @@ return { -- Better autoformat replacer - add language replacers as desired.
 			c = { "clang_format" },
 			cpp = { "clang_format" },
 			json = { "prettier" },
+			yaml = { "prettier" },
 			-- Conform can also run multiple formatters sequentially
 			-- python = { "isort", "black" },
 			--
