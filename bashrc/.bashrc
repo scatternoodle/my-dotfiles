@@ -163,8 +163,11 @@ alias sourcebash="source ~/.bashrc"
 alias gitconfig="vim ~/.gitconfig"
 
 # ALACRITTY
-# fullscreen binding to F11 in alacritty
-bind -x '"\e[23~":"wmctrl -ir `xdotool getwindowfocus` -b toggle,fullscreen"'
+# fullscreen binding to F11 in terminal
+# We have this disabled right now because we're using Kitty terminal, which has
+# a built in hotkey for this (ctrl+shift+f11).
+# bind -x '"\e[23~":"wmctrl -ir `xdotool getwindowfocus` -b toggle,fullscreen"'
+
 alias alacritty-config="vim ~/.config/alacritty/alacritty.toml"
 alias alacritty-docs="firefox --new-tab 'https://alacritty.org/config-alacritty.html'"
 alias a-theme="ls ~/.config/alacritty/themes | fzf | xargs -I {} ln -sf ~/.config/alacritty/themes/{} ~/.config/alacritty/current_theme.toml && echo "@@@" >> ~/.config/alacritty/alacritty.toml && sed -i '/@@@/d' ~/.config/alacritty/alacritty.toml"
