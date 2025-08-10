@@ -40,6 +40,7 @@ return { -- Better autoformat replacer - add language replacers as desired.
 			lua = { "stylua" },
 			c = { "clang_format" },
 			cpp = { "clang_format" },
+			json = { "prettier" },
 			-- Conform can also run multiple formatters sequentially
 			-- python = { "isort", "black" },
 			--

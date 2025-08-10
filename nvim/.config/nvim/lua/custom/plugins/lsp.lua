@@ -180,6 +180,8 @@ return {
 			rust_analyzer = {},
 
 			jqls = {},
+
+			prettier = {},
 		}
 
 		-- Ensure the servers and tools above are installed
