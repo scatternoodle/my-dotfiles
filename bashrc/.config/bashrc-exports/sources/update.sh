@@ -5,5 +5,6 @@ function sysupdate() {
 		flatpak update --noninteractive && \
 		brew update && brew upgrade && brew cleanup && \
 		cargo install-update --all && \
-		npm update --global
+		npm update --global && \
+		curl -fsSL https://opencode.ai/install | bash
 }
