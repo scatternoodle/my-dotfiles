@@ -44,7 +44,7 @@ local function set_colorscheme(filename)
 	end
 end
 
-local colorscheme_filepath = "~/.config/nvim/lua/custom/colorscheme-saver/current_scheme.txt"
+local colorscheme_filepath = os.getenv("HOME") .. "/.config/nvim/lua/custom/colorscheme-saver/current_scheme.txt"
 
 M.setup = function()
 	set_colorscheme(colorscheme_filepath) -- Help needed here
