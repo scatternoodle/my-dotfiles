@@ -130,10 +130,10 @@ return {
 
 			gopls = {},
 
-			pyright = {},
+			-- pyright = {},
 			-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 
-			ts_ls = {},
+			-- ts_ls = {},
 			--
 
 			lua_ls = {
@@ -157,31 +157,31 @@ return {
 				},
 			},
 
-			tailwindcss = {
-				settings = {
-					tailwindCSS = {
-						includeLanguages = {
-							templ = "html",
-						},
-					},
-				},
-			},
+			-- tailwindcss = {
+			-- 	settings = {
+			-- 		tailwindCSS = {
+			-- 			includeLanguages = {
+			-- 				templ = "html",
+			-- 			},
+			-- 		},
+			-- 	},
+			-- },
 
-			intelephense = {},
+			-- intelephense = {},
 
-			dockerls = {},
+			-- dockerls = {},
 
-			templ = {},
+			-- templ = {},
 
-			html = {
-				filetypes = { "html", "templ" },
-			},
+			-- html = {
+			-- 	filetypes = { "html", "templ" },
+			-- },
 
 			rust_analyzer = {},
 
 			jqls = {},
 
-			prettier = {},
+			-- prettier = {},
 		}
 
 		-- Ensure the servers and tools above are installed
