@@ -8,7 +8,6 @@ local function ensure_file_exists(filename)
 	if file then
 		-- File exists, close it
 		file:close()
-		print("File '" .. filename .. "' already exists.")
 	else
 		-- File does not exist, create it
 		file = io.open(filename, "w") -- Open in write mode to create (or truncate)
@@ -39,8 +38,6 @@ local function set_colorscheme(filename)
 	local ok, err = pcall(vim.cmd, "colorscheme " .. scheme)
 	if not ok then
 		print("Error: Could not set colorscheme '" .. scheme .. "': " .. err)
-	else
-		print("Colorscheme set to '" .. scheme .. "'.")
 	end
 end
 
