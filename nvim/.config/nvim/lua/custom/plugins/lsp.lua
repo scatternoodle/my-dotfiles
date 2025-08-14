@@ -130,11 +130,10 @@ return {
 
 			gopls = {},
 
-			-- pyright = {},
+			pyright = {},
 			-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 
-			-- ts_ls = {},
-			--
+			ts_ls = {},
 
 			lua_ls = {
 				-- cmd = {...},
