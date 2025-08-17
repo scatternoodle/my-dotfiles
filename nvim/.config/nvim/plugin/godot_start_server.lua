@@ -30,11 +30,6 @@ local function start_godot_server()
 		return
 	end
 	vim.fn.serverstart(server_name)
-	print("Godot project detected, local project server started.")
-	print("Servers: ")
-	for _, server in ipairs(vim.fn.serverlist()) do
-		print(server)
-	end
 end
 
 start_godot_server()
