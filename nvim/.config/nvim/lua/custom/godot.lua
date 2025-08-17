@@ -18,10 +18,6 @@ function M.start_project_server()
 		return
 	end
 
-	-- local server_dir = root_dir .. "/tmp"
-	-- vim.fn.mkdir(server_dir, "p")
-	--
-	-- local server_name = server_dir .. "/godohost"
 	local project_name = vim.fn.fnamemodify(root_dir, ":t")
 	local server_name = "godohost_" .. project_name
 
