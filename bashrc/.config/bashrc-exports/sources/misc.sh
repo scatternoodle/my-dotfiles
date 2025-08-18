@@ -12,3 +12,6 @@ function fix_downloads() {
 	xdg-user-dir DOWNLOAD
 }
 
+# while we're on ubuntu or debian-based distros, this is a sensible default
+# disable this if using pyenv, however.
+alias python="python3"
