@@ -128,10 +128,6 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
 alias protontricks='flatpak run com.github.Matoking.protontricks'
 
 export NVM_DIR="$HOME/.nvm"
