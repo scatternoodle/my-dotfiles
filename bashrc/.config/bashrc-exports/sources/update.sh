@@ -3,7 +3,6 @@ function sysupdate() {
 		sudo apt autoremove -y && \
 		sudo snap refresh && \
 		flatpak update --noninteractive && \
-		# brew update && brew upgrade && brew cleanup && \
 		cargo install-update --all && \
 		npm update --global && \
 		curl -fsSL https://opencode.ai/install | bash
