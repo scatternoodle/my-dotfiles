@@ -4,6 +4,5 @@ function sysupdate() {
 		sudo snap refresh && \
 		flatpak update --noninteractive && \
 		cargo install-update --all && \
-		npm update --global && \
-		curl -fsSL https://opencode.ai/install | bash
+		npm update --global
 }
