@@ -1,4 +1,3 @@
-vim.opt_local.statusline = "MY CUSTOM C INDENT IS LOADED!"
 vim.opt_local.cindent = true
 vim.opt_local.cinoptions:append({
 	-- Indent 'case' labels relative to 'switch'
