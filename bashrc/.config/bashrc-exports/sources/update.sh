@@ -5,5 +5,6 @@ function sysupdate() {
 		flatpak update --noninteractive && \
 		cargo install-update --all && \
 		npm update --global && \
-		go install github.com/mithrandie/csvq@latest
+		go install github.com/mithrandie/csvq@latest && \
+		go install github.com/spf13/cobra-cli@latest
 }
