@@ -16,3 +16,8 @@ modpath = "Documents/My Games/FarmingSimulator2019/mods"
 [appconfigs.1122340]
 savepath = "AppData/LocalLow/Cyanide/Chef Life _ A Restaurant Simulator/saves"
 # No official mod support
+
+# Stardew Valley
+[appconfigs.413150]
+compatpath = "/home/elliot/.config/StardewValley"
+savepath = "saves"
