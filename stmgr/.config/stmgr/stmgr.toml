@@ -20,4 +20,4 @@ savepath = "AppData/LocalLow/Cyanide/Chef Life _ A Restaurant Simulator/saves"
 # Stardew Valley
 [appconfigs.413150]
 compatpath = "/home/elliot/.config/StardewValley"
-savepath = "saves"
+savepath = "Saves"
