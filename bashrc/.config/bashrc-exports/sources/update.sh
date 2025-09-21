@@ -3,6 +3,7 @@ function sysupdate() {
 		sudo apt autoremove -y && \
 		sudo snap refresh && \
 		flatpak update --noninteractive && \
+		rustup update && \
 		cargo install-update --all && \
 		npm update --global && \
 		go install github.com/mithrandie/csvq@latest && \
