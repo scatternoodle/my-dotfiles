@@ -197,3 +197,5 @@ eval "$(zoxide init --cmd cd bash)"
 
 # Bring in locally stored API keys
 source ~/.api_keys.sh
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
