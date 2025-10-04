@@ -22,3 +22,9 @@ savepath = "AppData/LocalLow/Cyanide/Chef Life _ A Restaurant Simulator/saves"
 compatpath = "/home/elliot/.config/StardewValley"
 savepath = "Saves"
 modpathabs = "/home/elliot/.steam/steam/steamapps/common/Stardew Valley/Mods"
+
+# Software Inc
+[appconfigs.362620]
+compatpath = "/home/elliot/.steam/debian-installation/steamapps/common/Software Inc"
+savepath = "Saves"
+modpath = "Mods"
