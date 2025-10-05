@@ -7,5 +7,6 @@ function sysupdate() {
 		cargo install-update --all && \
 		npm update --global && \
 		go install github.com/mithrandie/csvq@latest && \
-		go install github.com/spf13/cobra-cli@latest
+		go install github.com/spf13/cobra-cli@latest && \
+		go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
 }
