@@ -199,3 +199,7 @@ eval "$(zoxide init --cmd cd bash)"
 source ~/.api_keys.sh
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+[ -s ~/.luaver/luaver ] && . ~/.luaver/luaver
+[ -s ~/.luaver/completions/luaver.bash ] && . ~/.luaver/completions/luaver.bash
+
