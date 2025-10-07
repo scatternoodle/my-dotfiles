@@ -198,8 +198,10 @@ eval "$(zoxide init --cmd cd bash)"
 # Bring in locally stored API keys
 source ~/.api_keys.sh
 
+# Inserted automatically by luaver install script
+# luaver BEGIN
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 [ -s ~/.luaver/luaver ] && . ~/.luaver/luaver
 [ -s ~/.luaver/completions/luaver.bash ] && . ~/.luaver/completions/luaver.bash
-
+# luaver END
