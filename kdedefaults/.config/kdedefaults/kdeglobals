@@ -1,0 +1,9 @@
+[General]
+ColorScheme=BreezeDark
+TerminalApplication=x-terminal-emulator
+
+[Icons]
+Theme=breeze-dark
+
+[KDE]
+widgetStyle=Breeze
