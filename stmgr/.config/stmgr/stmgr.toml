@@ -28,3 +28,7 @@ modpathabs = "/home/elliot/.steam/steam/steamapps/common/Stardew Valley/Mods"
 compatpath = "/home/elliot/.steam/debian-installation/steamapps/common/Software Inc"
 savepath = "Saves"
 modpath = "Mods"
+
+# Wurm Unlimited
+[appconfigs.366220]
+compatpath = "/home/elliot/.steam/debian-installation/steamapps/common/Wurm Unlimited"
