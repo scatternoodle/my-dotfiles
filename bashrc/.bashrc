@@ -193,7 +193,7 @@ export ORACLE_HOME=/opt/oracle/instantclient
 export PATH=$PATH:$ORACLE_HOME/
 export LD_LIBRARY_PATH=$ORACLE_HOME/:$LD_LIBRARY_PATH # for linker to find libraries
 
-eval "$(zoxide init --cmd cd bash)"
+eval "$(zoxide init bash)"
 
 # Bring in locally stored API keys
 source ~/.api_keys.sh
